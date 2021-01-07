@@ -14,7 +14,7 @@ import com.test.TestBase;
 public class DashboardPage extends TestBase {
 
 	public DashboardPage(WebDriver driver){
-		 this.driver=driver;
+		 DashboardPage.driver=driver;
 		 PageFactory.initElements(driver, this);
 	}	
 	
