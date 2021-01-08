@@ -12,4 +12,9 @@ public class DashboardTest extends TestBase  {
 		dp.verifyCourses();
 	}
 	
+	@Test
+	public void verifyCourses1() {
+		
+		dp.verifyCourses();
+	}
 }
